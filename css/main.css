@@ -63,7 +63,50 @@ div.trim {
   height: 850px;
   /*height: auto;*/
   background-color: rgb(0, 132, 255);
-  
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro h1 {
+  font-size: 600%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#intro h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+
+#grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gridItem {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 7px;
+  color: rgb(245, 245, 245);
+  font-size: larger;
+  font-weight: bold;
+  margin: 5px;
+  background-color: #01A7C2
 }
 
 /* .homepage header {
@@ -136,7 +179,7 @@ div.trim {
 
 
 .homepage footer {
-  background-color: black;
+  background-color: rgb(199, 197, 197);
   font-size: 75%;
 }
 
@@ -165,7 +208,7 @@ div.trim {
 }
 
 .homepage footer .footerContainer a, .homepage footer .footerContainer p {
-  color: white;
+  color: grey;
 }
 
 /*footer*/
