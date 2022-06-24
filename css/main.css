@@ -109,6 +109,44 @@ div.trim {
   background-color: #01A7C2
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0a0a0aec;
+}
+
+#portfolioImageContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolioImage {
+  margin: 10px;
+  width: 700px;
+  height: auto;
+  border-radius: 7px;
+}
+
+#portfolioLink {
+  text-decoration: none;
+  color: #2997ff;
+  font-size: 150%;
+  /* border: 2px solid #E0CA3C; */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/*SLIDER*/
+
+
+
 /* .homepage header {
   margin-top: 52px;
   background-image: url(/images/spaceBackground.png);
